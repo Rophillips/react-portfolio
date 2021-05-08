@@ -9,11 +9,11 @@ function Header() {
 
   return (
     <ul className="navbar navbar-expand-lg bg-dark text-uppercase">
-      <li className="container-">
+      <div className="container-">
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
-      </li>
+      </div>
       <li className="nav-item">
         <Link
           to="/about"
@@ -24,10 +24,10 @@ function Header() {
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
+          to="/ProjectCard"
           className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Projects
         </Link>
       </li>
       <li className="nav-item">
