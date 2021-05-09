@@ -1,9 +1,9 @@
 [
 {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "Good Eats",
     "image": "https://github.com/kierajcullen/goodeats/raw/main/img/goodeats.gif",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "repo": "github",
+    "deployed site": "https://kierajcullen.github.io/goodeats/"
 }
 ]
